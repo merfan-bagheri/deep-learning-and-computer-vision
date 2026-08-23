@@ -15,74 +15,67 @@
 
 ## 📖 Overview
 
-This repository contains a comprehensive deep learning portfolio comprising a complete **Computer Vision Multi-Object Tracking (MOT) Capstone Project** and five rigorous coursework modules covering foundations, deep CNN interpretability, Vision Transformers (ViT), NLP sequence models (LSTM & GPT-2), and Deep Generative Models (VAE, CVAE, VQ-VAE).
+This repository contains my deep learning coursework, implementations, and capstone project developed at Sharif University of Technology. It includes an **AI Computer Vision Multi-Object Tracking (MOT) Capstone System** alongside foundational neural network engines from scratch, CNN interpretability & Grad-CAM, Vision Transformers (ViT), NLP sequence models (LSTM & GPT-2 variants), and Deep Generative Models (VAE, CVAE, VQ-VAE).
 
 ```mermaid
 graph LR
-    A[Deep Learning Portfolio] --> B[⚽ Capstone: AI Tactical MOT]
-    A --> C[🧠 HW2: Foundations & Solvers]
-    A --> D[👁️ HW3: CNN, Grad-CAM & ViT]
-    A --> E[🤖 HW4: LSTM, GPT-2 & BERT]
-    A --> F[🎨 HW5: VAE, CVAE & VQ-VAE]
+    A[Deep Learning Portfolio] --> B[01: ⚽ AI Tactical MOT]
+    A --> C[02: 🧠 NN Foundations From Scratch]
+    A --> D[03: ⚙️ Optimization & Regularization]
+    A --> E[04: 👁️ CNNs, Grad-CAM & ViT]
+    A --> F[05: 🤖 LSTM, GPT-2 & BERT]
+    A --> G[06: 🎨 VAE, CVAE & VQ-VAE]
 ```
 
 ---
 
 ## 📂 Repository Structure
 
-| Directory | Description | Key Technologies / Topics |
+| Module Directory | Description | Core Topics & Tech Stack |
 | :--- | :--- | :--- |
-| [`Project/`](Project/) | **AI Tactical Football Analytics & Multi-Object Tracking** | YOLOv5, ByteTrack, CBAM Attention, K-Means Clustering, Homography, Heatmaps |
-| [`hw2_1/`](hw2_1/) | **Deep Learning Framework from Scratch** | Custom Layers (`Linear`, `ReLU`, `Softmax`), Vectorized Backprop, Modular Solvers |
-| [`hw2_2/`](hw2_2/) | **Optimization & Training Dynamics** | Adam, RMSprop, Momentum, L2 Decay, Dropout, Decision Boundary Visualization |
-| [`hw3/`](hw3/) | **CNNs, Grad-CAM & Vision Transformers** | Grad-CAM Attention Heatmaps, Multi-layer Feature Maps, ViT Self-Attention |
-| [`hw4/`](hw4/) | **ViT Augmentation, LSTM & GPT-2 / BERT** | Data Augmentation, Tied-Weight LSTM (WikiText-2), GPT-2 Causal Variations, SST-2 |
-| [`hw5/`](hw5/) | **Deep Generative Modeling** | VAE, Conditional VAE, Latent Manifold Traversal, VQ-VAE Codebook Quantization |
+| [`01-AI-Football-Multi-Object-Tracking/`](01-AI-Football-Multi-Object-Tracking/) | **AI Multi-Object Tracking (MOT) & Tactical Football Analytics** | YOLOv5, ByteTrack, CBAM Attention, K-Means Jersey Clustering, Homography, Heatmaps |
+| [`02-Neural-Network-Foundations-From-Scratch/`](02-Neural-Network-Foundations-From-Scratch/) | **Deep Learning Framework From Scratch** | Custom Modular Layers (`Linear`, `ReLU`, `Softmax`), Vectorized Backprop, Modular Solvers |
+| [`03-Optimization-and-Regularization-Dynamics/`](03-Optimization-and-Regularization-Dynamics/) | **Optimization & Training Dynamics** | Adam, RMSprop, Momentum, L2 Decay, Dropout, Decision Boundary Animations |
+| [`04-CNNs-GradCAM-and-Vision-Transformers/`](04-CNNs-GradCAM-and-Vision-Transformers/) | **CNNs, Grad-CAM & Vision Transformers (ViT)** | Grad-CAM Layer-by-Layer Heatmaps (0–40), Feature Hierarchies, ViT Multi-Head Self-Attention |
+| [`05-ViT-Augmentation-LSTM-and-GPT2-NLP/`](05-ViT-Augmentation-LSTM-and-GPT2-NLP/) | **ViT Augmentation, LSTM & GPT-2 / BERT** | Data Augmentation, Tied-Weight LSTM (WikiText-2), 5 GPT-2 Decoder Variations, SST-2 Sentiment |
+| [`06-Deep-Generative-Models-VAE-and-VQ-VAE/`](06-Deep-Generative-Models-VAE-and-VQ-VAE/) | **Deep Generative Modeling** | VAE, Conditional VAE, Latent Manifold Traversal Animation, VQ-VAE Codebook Quantization |
 
 ---
 
 ## 🌟 Featured Highlights
 
-### 1. ⚽ Multi-Object Tracking & Tactical Football Analytics ([`Project/`](Project/))
-A broadcast-grade video analytics pipeline for soccer match tracking:
+### 1. ⚽ Multi-Object Tracking & Tactical Football Analytics ([`01-AI-Football-Multi-Object-Tracking/`](01-AI-Football-Multi-Object-Tracking/))
 - **Detection & Tracking**: YOLO object detection coupled with **DeepByteTrack** using **CBAM (Convolutional Block Attention Module)** for appearance feature extraction under occlusions.
 - **Team Assignment**: Automatic jersey color clustering in HSV/RGB space via K-Means.
 - **Ball Possession**: Spatial proximity and trajectory interpolation for robust ball possession determination.
 - **Pitch Homography**: Perspective transformation for 2D tactical maps, speed, distance calculation, and player heatmaps.
 
-### 2. 👁️ Model Interpretability & Grad-CAM ([`hw3/`](hw3/))
+### 2. 👁️ Model Interpretability & Grad-CAM ([`04-CNNs-GradCAM-and-Vision-Transformers/`](04-CNNs-GradCAM-and-Vision-Transformers/))
 - Layer-by-layer attention visualization (layers 0 through 40) using Gradient-weighted Class Activation Mapping to observe the emergence of high-level visual features.
 
-### 3. 💬 Transformer Architectures for NLP ([`hw4/`](hw4/))
+### 3. 💬 Transformer Architectures for NLP ([`05-ViT-Augmentation-LSTM-and-GPT2-NLP/`](05-ViT-Augmentation-LSTM-and-GPT2-NLP/))
 - Architectural benchmark comparing 5 configurations of decoder-only GPT-2 (Linear head, Aggregation layer, Multi-head Self-Attention, Causal LTR/RTL attention) alongside fine-tuned BERT on SST-2.
 
-### 4. 🎨 Latent Space Generative Modeling ([`hw5/`](hw5/))
+### 4. 🎨 Latent Space Generative Modeling ([`06-Deep-Generative-Models-VAE-and-VQ-VAE/`](06-Deep-Generative-Models-VAE-and-VQ-VAE/))
 - Latent interpolation animation traversing continuous Gaussian manifolds in VAE/CVAE, and discrete vector quantization in VQ-VAE.
 
 ---
 
 ## 🛠️ Environment Setup & Dependencies
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/merfan-bagheri/Deep_learning_Dr.Fatemizadeh.git
-   cd Deep_learning_Dr.Fatemizadeh
-   ```
+```bash
+# Clone the repository
+git clone https://github.com/merfan-bagheri/deep-learning-and-computer-vision.git
+cd deep-learning-and-computer-vision
 
-2. **Create and activate a virtual environment:**
-   ```bash
-   python -m venv dl_env
-   # Windows:
-   dl_env\Scripts\activate
-   # Linux/macOS:
-   source dl_env/bin/activate
-   ```
+# Create virtual environment
+python -m venv dl_env
+source dl_env/bin/activate  # On Windows: dl_env\Scripts\activate
 
-3. **Install core packages:**
-   ```bash
-   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-   pip install transformers datasets opencv-python numpy pandas matplotlib scikit-learn ultralytics
-   ```
+# Install dependencies
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install transformers datasets opencv-python numpy pandas matplotlib scikit-learn ultralytics
+```
 
 ---
 
