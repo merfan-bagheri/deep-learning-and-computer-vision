@@ -9,7 +9,7 @@
 > **Course**: Graduate Deep Learning  
 > **Institution**: Sharif University of Technology  
 > **Instructor**: Prof. Hamidreza Fatemizadeh  
-> **Author**: Muhammaderfan Bagherinejad ([GitHub](https://github.com/merfan-bagheri) • [LinkedIn](https://www.linkedin.com/in/merfan-bagheri))
+> **Author**: Muhammaderfan Bagherinejad ([GitHub](https://github.com/merfan-bagheri) • [LinkedIn](https://www.linkedin.com/in/mohammaderfan-bagherinejad))
 
 ---
 
